@@ -81,7 +81,8 @@ namespace FirstBankOfSuncoast
                         var subtract = findDeposit - findWithdraw;
                         Console.WriteLine("How much would you like to withdraw from savings");
                         var withdrawAmount = int.Parse(Console.ReadLine());
-                        if (subtract <= withdrawAmount)
+
+                        if (withdrawAmount > subtract)
                         {
                             Console.WriteLine();
                             Console.WriteLine("Insufficient funds");
@@ -112,7 +113,8 @@ namespace FirstBankOfSuncoast
                         var subtract = findDeposit - findWithdraw;
                         Console.WriteLine("How much would you like to withdraw from checking");
                         var withdrawAmount = int.Parse(Console.ReadLine());
-                        if (subtract <= withdrawAmount)
+
+                        if (withdrawAmount > subtract)
                         {
                             Console.WriteLine();
                             Console.WriteLine("Insufficient funds");
