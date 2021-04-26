@@ -1,0 +1,10 @@
+Type,Account,Amount,TimeStamp
+deposit,savings,20,04/24/2021 18:05:34
+deposit,checking,1000,04/24/2021 18:13:33
+deposit,savings,10,04/24/2021 18:14:04
+withdraw,savings,15,04/24/2021 18:14:15
+withdraw,savings,10,04/24/2021 18:15:26
+withdraw,savings,5,04/24/2021 18:32:14
+deposit,savings,5,04/24/2021 18:33:32
+withdraw,savings,5,04/24/2021 18:42:12
+deposit,savings,5,04/24/2021 19:09:02
